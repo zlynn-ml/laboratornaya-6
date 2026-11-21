@@ -1,0 +1,30 @@
+# Скомпилированные бинарные и исполняемые файлы
+*.exe
+*.out
+*.app
+*.o
+*.obj
+*.so
+*.dylib
+*.dll
+
+# Файлы отладки
+*.pdb
+*.ilk
+*.dSYM/
+
+# Системы сборки (если будете использовать CMake / Make)
+build/
+cmake-build-*/
+Makefile
+
+# Настройки популярных IDE и редакторов
+.vscode/
+.vs/
+.idea/
+*.swp
+*.swo
+
+# Системные файлы (Windows / macOS)
+Thumbs.db
+.DS_Store
